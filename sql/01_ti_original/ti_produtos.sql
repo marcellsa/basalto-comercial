@@ -1,0 +1,4 @@
+-- Query recebida da TI: cadastro de produtos.
+SELECT COD_PRO AS Produto, COD_MOD, DES_PRO AS Descricao, DES_LIN, DES_CAT, DES_COR, COD_COL,
+DTA_LAN, DTA_FIMCOL, VLR_PRCVAR, VLR_CUSTO
+FROM CADPRO

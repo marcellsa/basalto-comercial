@@ -1,0 +1,4 @@
+-- Query recebida da TI: vendedores com supervisor.
+SELECT V.COD_VEN, V.NOM_VEN AS Nome, V.COD_SUP, S.NOM_SUP AS Nome, S.DES_REG, V.DTA_INI, V.DTA_FIM, V.DES_TIPVEN
+FROM CADVEN V
+INNER JOIN CADSUP S ON S.COD_SUP = V.COD_SUP
