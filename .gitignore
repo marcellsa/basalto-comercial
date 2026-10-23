@@ -1,0 +1,14 @@
+# Banco do ERP fictício: fica fora do repositório
+*.db
+
+# Excel: arquivos temporários de planilha aberta
+~$*.xlsx
+
+# Power BI Desktop (.pbip): cache e configurações locais
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
